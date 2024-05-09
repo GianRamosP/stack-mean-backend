@@ -1,2 +1,17 @@
-# Ignorar directorio de node_modules en proyectos Node.js
 node_modules/
+# .gitignore
+node_modules/
+npm-debug.log
+.DS_Store
+*.log
+logs
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+.pyc
+.env
+.env.test
+.cache
+.nyc_output
